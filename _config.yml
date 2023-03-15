@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Dongliang Cao"
 title_separator          : "-"
 name                     : &name "Dongliang Cao"
-description              : &description "PhD student at University of Bonn"
+description              : &description "Dongliang Cao"
 url                      : https://dongliangcao.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "dongliangcao/dongliangcao.github.io"
@@ -82,10 +82,10 @@ analytics:
 author:
   name             : "Dongliang Cao"
   avatar           : "profile.jpg"
-  bio              : "First-year PhD student at University of Bonn"
+  bio              : "PhD student at University of Bonn"
   location         : "Germany"
   employer         :
-  pubmed           : ""
+  pubmed           : # ""
   googlescholar    : "https://scholar.google.com/citations?user=HR0bpvsAAAAJ"
   email            : "cao.dongliang97@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/dongliangcao"
+  github           : "dongliangcao"
   google_plus      :
   keybase          :
   instagram        :
