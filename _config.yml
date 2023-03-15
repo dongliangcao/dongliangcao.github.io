@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : ""
+title                    : "Dongliang Cao"
 title_separator          : "-"
 name                     : &name "Dongliang Cao"
 description              : &description "PhD student at University of Bonn"
@@ -81,8 +81,8 @@ analytics:
 # Site Author
 author:
   name             : "Dongliang Cao"
-  avatar           : "profile.png"
-  bio              : "Passionate about AI and its applications"
+  avatar           : "profile.jpg"
+  bio              : "First-year PhD student at University of Bonn"
   location         : "Germany"
   employer         :
   pubmed           : ""
