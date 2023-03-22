@@ -1,11 +1,11 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-My up-to-date CV can be found [here](/files/CV_CaoDongliang.pdf).
+You can find my up-to-date CV [here](/files/CV_CaoDongliang.pdf).
   
