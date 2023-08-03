@@ -5,7 +5,7 @@ permalink: /publication/2022-eccv-unsupervised-deep-multi-shape-matching
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2022-07-04
 venue: 'European Conference on Computer Vision (ECCV)'
-paperurl: 'https://github.com/dongliangcao/Unsupervised-Deep-Multi-Shape-Matching'
+paperurl: 'https://arxiv.org/pdf/2207.09610.pdf'
 authors: '<b>Dongliang Cao</b>, Florian Bernard'
 teaser: /previews/cao2022.png
 arxiv: 'https://arxiv.org/abs/2207.09610'
@@ -24,14 +24,14 @@ bibtex: true
 
 ## Resources
 
-{% if page.paperurl %}<a href=" {{ page.paperurl }} ">[pdf]</a>{% endif %} {% if page.arxiv %}<a href=" {{ page.arxiv }} ">[arxiv]</a>{% endif %} {% if page.code %}<a href=" {{ page.code }} ">[github]</a>{% endif %} {% if page.video %}<a href=" {{ page.video }} ">[video]</a>{% endif %} {% if poster %}<a href=" {{ page.poster }} ">[video]</a>{% endif %}
+{% if page.paperurl %}<a href=" {{ page.paperurl }} ">[pdf]</a>{% endif %} {% if page.arxiv %}<a href=" {{ page.arxiv }} ">[arxiv]</a>{% endif %} {% if page.code %}<a href=" {{ page.code }} ">[github]</a>{% endif %} {% if page.pageurl %}<a href=" {{ page.pageurl }} ">[project page]</a>{% endif %} {% if page.video %}<a href=" {{ page.video }} ">[video]</a>{% endif %} {% if poster %}<a href=" {{ page.poster }} ">[video]</a>{% endif %}
 
 
 ## Bibtex
 
-@inproceedings{cao2022,
-title = {Unsupervised Deep Multi-Shape Matching},
-author = {D. Cao and F. Bernard},
-year  = {2022},
-booktitle = {European Conference on Computer Vision (ECCV)}
-}
+    @inproceedings{cao2022,
+    title = {Unsupervised Deep Multi-Shape Matching},
+    author = {D. Cao and F. Bernard},
+    year  = {2022},
+    booktitle = {European Conference on Computer Vision (ECCV)}
+    }

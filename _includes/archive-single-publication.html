@@ -52,6 +52,9 @@
         {% if post.video %}
             <a href=" {{ post.video }} ">[video]</a>
         {% endif %}
+        {% if post.pageurl %}
+            <a href=" {{ post.pageurl }} ">[project page]</a>
+        {% endif %}
         {% if post.poster %}
             <a href=" {{ post.poster }} ">[poster]</a>
         {% endif %}
