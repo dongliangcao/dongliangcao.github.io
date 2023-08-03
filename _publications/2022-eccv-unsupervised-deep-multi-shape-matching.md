@@ -9,7 +9,7 @@ paperurl: 'https://arxiv.org/pdf/2207.09610.pdf'
 authors: '<b>Dongliang Cao</b>, Florian Bernard'
 teaser: /previews/cao2022.png
 arxiv: 'https://arxiv.org/abs/2207.09610'
-code: https://github.com/dongliangcao/Unsupervised-Deep-Multi-Shape-Matching
+code: 'https://github.com/dongliangcao/Unsupervised-Deep-Multi-Shape-Matching'
 categories: [correspondence]
 bibtex: true
 ---

@@ -9,7 +9,7 @@ paperurl: 'https://arxiv.org/pdf/2303.10971.pdf'
 authors: '<b>Dongliang Cao</b>, Florian Bernard'
 teaser: /previews/dongliang2023cvpr.jpg
 arxiv: 'https://arxiv.org/abs/2303.10971'
-code: https://github.com/dongliangcao/Self-Supervised-Multimodal-Shape-Matching
+code: 'https://github.com/dongliangcao/Self-Supervised-Multimodal-Shape-Matching'
 categories: [correspondence]
 bibtex: true
 ---
