@@ -1,0 +1,67 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item" style="clear: left;">
+
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+
+    {% if post.teaser %}
+      <div style="float: left;width:170px;height:120px;">
+        <img width="150px" style="margin-right: 20px;" src=
+          {% if teaser contains "://" %}
+            "{{ post.teaser }}"
+          {% else %}
+            "{{ post.teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% endif %}
+
+    <div>
+    <h3 class="archive__item-title" itemprop="headline">
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+      {% endif %}
+    </h3>
+
+    <p style="font-size: 11pt;">
+        {{ post.authors }} <br/>
+        Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} <br/>
+        {% if post.paperurl %}
+            <a href=" {{ post.paperurl }} ">[pdf]</a>
+        {% endif %}
+        {% if post.arxiv %}
+            <a href=" {{ post.arxiv }} ">[arxiv]</a>
+        {% endif %}
+        {% if post.code %}
+            <a href=" {{ post.code }} ">[github]</a>
+        {% endif %}
+        {% if post.video %}
+            <a href=" {{ post.video }} ">[video]</a>
+        {% endif %}
+        {% if post.poster %}
+            <a href=" {{ post.poster }} ">[poster]</a>
+        {% endif %}
+        {% if post.bibtex %}
+            <a href="{{ base_path }}{{ post.permalink }}#bibtex">[bibtex]</a>
+        {% endif %}
+        </p>
+
+    </div>
+
+  </article>
+
+</div>

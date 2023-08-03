@@ -191,6 +191,7 @@ collections:
     output: true
     permalink: /:collection/:path/
 
+categories: [correspondence, geometricDL]
 
 # Defaults
 defaults:
