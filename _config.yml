@@ -191,7 +191,7 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-categories: [correspondence, geometricDL]
+categories: [correspondence, geometricDL, medical-imaging]
 
 # Defaults
 defaults:
