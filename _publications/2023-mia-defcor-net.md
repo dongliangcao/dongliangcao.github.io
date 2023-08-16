@@ -16,7 +16,7 @@ bibtex: true
 
 {{ page.authors }}
 
-<img class="pub_teaser" src="../images/previews/dongliang2023cvpr.jpg" alt="Teaser Image" title="teaser" />
+<img class="pub_teaser" src="../images/previews/cao23mia.png" alt="Teaser Image" title="teaser" />
 
 ## Abstract
 
