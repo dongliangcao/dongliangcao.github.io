@@ -29,8 +29,10 @@ bibtex: true
 ## Bibtex
 
     @article{jiang2023defcor,
-        title={DefCor-Net: Physics-Aware Ultrasound Deformation Correction},
+        title={DefCor-Net: Physics-aware ultrasound deformation correction},
         author={Jiang, Zhongliang and Zhou, Yue and Cao, Dongliang and Navab, Nassir},
-        journal={arXiv preprint arXiv:2308.03865},
-        year={2023}
-    } 
+        journal={Medical Image Analysis},
+        pages={102923},
+        year={2023},
+        publisher={Elsevier}
+    }
