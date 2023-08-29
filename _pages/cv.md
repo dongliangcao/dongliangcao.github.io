@@ -15,7 +15,7 @@ Education
 * **M.Sc.** (with distinction) in Computer Science
   * Technical University of Munich, 2022
 * **B.Eng.** in Mechatronics
-  * Hochschule Zittau/Görlitz, 2019
+  * Zittau Görlitz University of Applied Sciences, 2019
 * **B.Sc.** in Mechatronics
   * Tongji University, 2019
 
