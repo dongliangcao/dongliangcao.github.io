@@ -6,7 +6,7 @@ excerpt: 'This paper is about the number 1. The number 2 is left for future work
 date: 2023-08-16
 venue: 'Medical Image Analysis (MIA)'
 paperurl: 'https://arxiv.org/pdf/2308.03865.pdf'
-authors: [Zhongliang Jiang,  Yue Zhou, Dongliang Cao, Nassir Navab]
+authors: [Zhongliang Jiang,Yue Zhou,Dongliang Cao,Nassir Navab]
 teaser: /previews/cao23mia.png
 arxiv: 'https://arxiv.org/abs/2308.03865'
 code: 'https://github.com/karolinezhy/defcornet'

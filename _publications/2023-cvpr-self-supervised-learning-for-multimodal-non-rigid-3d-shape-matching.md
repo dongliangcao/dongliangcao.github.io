@@ -6,7 +6,7 @@ excerpt: 'This paper is about the number 1. The number 2 is left for future work
 date: 2023-02-28
 venue: 'Conference on Computer Vision and Pattern Recognition (CVPR)'
 paperurl: 'https://arxiv.org/pdf/2303.10971.pdf'
-authors: [Dongliang Cao, Florian Bernard]
+authors: [Dongliang Cao,Florian Bernard]
 teaser: /previews/dongliang2023cvpr.jpg
 arxiv: 'https://arxiv.org/abs/2303.10971'
 code: 'https://github.com/dongliangcao/Self-Supervised-Multimodal-Shape-Matching'
