@@ -41,6 +41,8 @@
         <!-- {{ post.authors }} <br/> -->
         {% for author in post.authors %}
           <a href="{{ site.data.authors[author].url }}">{{ site.data.authors[author].name }}</a>
+        {% unless forloop.last %}</em>, <em>{% endunless %}
+        {% endfor %}
         Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} <br/>
         {% if post.paperurl %}
             <a href=" {{ post.paperurl }} ">[pdf]</a>
