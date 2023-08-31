@@ -6,7 +6,7 @@ excerpt: 'This paper is about the number 1. The number 2 is left for future work
 date: 2023-04-19
 venue: 'ACM Transactions on Graphics (ToG)'
 paperurl: 'https://arxiv.org/pdf/2304.14419.pdf'
-authors: [Dongliang Cao,Paul Roetzer,Florian Bernard]
+authors: [Dongliang Cao, Paul Roetzer, Florian Bernard]
 teaser: /previews/cao23sig.jpg
 arxiv: 'https://arxiv.org/abs/2304.14419'
 code: 'https://github.com/dongliangcao/unsupervised-learning-of-robust-spectral-shape-matching'
