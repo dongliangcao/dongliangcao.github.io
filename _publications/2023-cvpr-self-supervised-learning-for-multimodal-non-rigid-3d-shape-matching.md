@@ -14,7 +14,11 @@ categories: [correspondence]
 bibtex: true
 ---
 
-{{ page.authors }}
+<!-- {{ page.authors }} -->
+{% for author in page.authors %}
+    <a href=" {{ site.data.authors[author].url }} ">{{ site.data.authors[author].name }}</a>
+    {% unless forloop.last %}, {% endunless %}
+{% endfor %}
 
 <img class="pub_teaser" src="../images/previews/dongliang2023cvpr.jpg" alt="Teaser Image" title="teaser" />
 
