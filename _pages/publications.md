@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-You can also find my articles on my <a href="https://scholar.google.com/citations?user=HR0bpvsAAAAJ">Google Scholar</a>.
+You can also find my articles on <a href="https://scholar.google.com/citations?user=HR0bpvsAAAAJ">my Google Scholar profile</a>.
 
 {% for post in site.publications reversed %}
   {% assign currentdate = post.date | date: "%Y" %}
