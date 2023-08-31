@@ -2,20 +2,24 @@
 
 Dongliang Cao:
   name        : "Dongliang Cao"
-  uri         : "https://dongliangcao.github.io/"
+  url         : "https://dongliangcao.github.io/"
 
 Florian Bernard:
   name        : "Florian Bernard"
-  uri         : "https://lovc.cs.uni-bonn.de/index.php/team/florian-bernard/"
+  url         : "https://lovc.cs.uni-bonn.de/index.php/team/florian-bernard/"
 
 Paul Roetzer:
   name        : "Paul Roetzer"
-  uri         : "https://paulroetzer.github.io/"
+  url         : "https://paulroetzer.github.io/"
 
 Zhongliang Jiang:
   name        : "Zhongliang Jiang"
-  uri         : "https://www.cs.cit.tum.de/en/camp/members/zhongliang-jiang/"
+  url         : "https://www.cs.cit.tum.de/en/camp/members/zhongliang-jiang/"
 
 Nassir Navab:
   name        : "Nassir Navab"
-  uri         : "https://www.cs.cit.tum.de/camp/members/cv-nassir-navab/nassir-navab/"
+  url         : "https://www.cs.cit.tum.de/camp/members/cv-nassir-navab/nassir-navab/"
+
+Yue Zhou:
+  name        : "Yue Zhou"
+  url         : "https://yuezhou0926.github.io/" 
