@@ -6,7 +6,7 @@ excerpt: 'This paper is about the number 1. The number 2 is left for future work
 date: 2022-07-04
 venue: 'European Conference on Computer Vision (ECCV)'
 paperurl: 'https://arxiv.org/pdf/2207.09610.pdf'
-authors: [Dongliang Cao, Florian Bernard]
+authors: '<b>Dongliang Cao</b>, Florian Bernard'
 teaser: /previews/cao2022.png
 arxiv: 'https://arxiv.org/abs/2207.09610'
 code: 'https://github.com/dongliangcao/Unsupervised-Deep-Multi-Shape-Matching'
