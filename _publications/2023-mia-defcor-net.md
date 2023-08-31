@@ -14,11 +14,7 @@ categories: [medical-imaging]
 bibtex: true
 ---
 
-<!-- {{ page.authors }} -->
-{% for author in page.authors %}
-    <a href=" {{ site.data.authors[author].url }} ">{{ site.data.authors[author].name }}</a>
-    {% unless forloop.last %}, {% endunless %}
-{% endfor %}
+{{ page.authors }}
 
 <img class="pub_teaser" src="../images/previews/cao23mia.png" alt="Teaser Image" title="teaser" />
 

@@ -40,8 +40,8 @@
     <p style="font-size: 11pt;">
         <!-- {{ post.authors }} <br/> -->
         {% for author in post.authors %}
-          {{ site.data.authors[author].name }}
-          {% unless forloop.last %}, {% endunless %}
+          <a href="{{ site.data.authors[author].url }}">{{ site.data.authors[author].name }}</a>
+        {% unless forloop.last %}</em>, <em>{% endunless %}
         {% endfor %}
         Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} <br/>
         {% if post.paperurl %}
