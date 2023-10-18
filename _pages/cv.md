@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-You can download a densified pdf version of my CV [here (updated August 30)](/files/CV_CaoDongliang.pdf).
+You can download a densified pdf version of my CV [here (updated October 16)](/files/CV_CaoDongliang.pdf).
 
 
 Education
