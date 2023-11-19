@@ -15,11 +15,12 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <li>
-      {% if post.link %}
+      <!-- {% if post.link %}
         {{ post.date | default: "1900-01-01" | date: "%d.%m.%Y" }}: <a href="{{ base_path }}{{ post.link }}">{{ title }}</a>
       {% else %}
         {{ post.date | default: "1900-01-01" | date: "%d.%m.%Y" }}: {{ title }}
-      {% endif %}
+      {% endif %} -->
+      {{ post.date | default: "1900-01-01" | date: "%d.%m.%Y" }}: {{ title }}
     </li>
  </article>
 </div>
