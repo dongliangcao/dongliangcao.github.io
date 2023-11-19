@@ -12,19 +12,15 @@ I am Dongliang Cao, who is the PhD student at [University of Bonn](http://cs.uni
 
 My research interest is related to shape analysis, including shape matching, shape generation, shape manipulation. If you have interest to collaborate with me, feel free to contact me. 
 
-Publications
-======
-{% for post in site.publications reversed %}
-  {% assign currentdate = post.date | date: "%Y" %}
-  {% if currentdate != date %}
-<h3>{{ currentdate }}</h3>
-    {% assign date = currentdate %}
-  {% endif %}
-  {% include archive-single-publication.html %}
-{% endfor %}
-
 News
 ======
   <ul>{% for post in site.news reversed %}
     {% include archive-news.html %}
   {% endfor %}</ul>
+
+
+Publications
+======
+{% for post in site.publications reversed %}
+  {% include archive-single-publication.html %}
+{% endfor %}
