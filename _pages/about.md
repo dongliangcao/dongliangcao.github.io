@@ -12,14 +12,14 @@ I am Dongliang Cao, who is the PhD student at [University of Bonn](http://cs.uni
 
 My research interest is related to shape analysis, including shape matching, shape generation, shape manipulation. If you have interest to collaborate with me, feel free to contact me. 
 
-News
+🔥 News
 ======
   <ul>{% for post in site.news reversed %}
     {% include archive-news.html %}
   {% endfor %}</ul>
 
 
-Publications
+📝 Publications 
 ======
 {% for post in site.publications reversed %}
   {% include archive-single-publication.html %}
