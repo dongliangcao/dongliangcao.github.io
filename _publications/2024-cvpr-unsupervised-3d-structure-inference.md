@@ -1,7 +1,7 @@
 ---
 title: "Unsupervised 3D Structure Inference from Category-Specific Image Collections"
 collection: publications
-permalink: /publication/2024-cvpr-spectral-meets-spatial
+permalink: /publication/2024-cvpr-unsupervised-3d-structure-inference
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2024-02-28
 venue: 'Conference on Computer Vision and Pattern Recognition (CVPR)'
