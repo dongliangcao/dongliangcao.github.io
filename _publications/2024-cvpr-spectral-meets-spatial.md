@@ -5,10 +5,10 @@ permalink: /publication/2024-cvpr-spectral-meets-spatial
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2024-02-28
 venue: 'Conference on Computer Vision and Pattern Recognition (CVPR)'
-# paperurl: 'https://arxiv.org/pdf/2303.10971.pdf'
+paperurl: 'https://arxiv.org/pdf/2402.18920.pdf'
 authors: '<b>Dongliang Cao</b>, Marvin Eisenberger, Nafie El Amrani, Daniel Cremers, Florian Bernard'
 teaser: /previews/dongliang2024cvpr.png
-# arxiv: 'https://arxiv.org/abs/2303.10971'
+arxiv: 'https://arxiv.org/abs/2402.18920'
 # code: 'https://github.com/dongliangcao/Self-Supervised-Multimodal-Shape-Matching'
 categories: [correspondence]
 bibtex: true
