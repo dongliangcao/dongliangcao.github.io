@@ -3,7 +3,7 @@ title: "Revisiting Map Relations for Unsupervised Non-Rigid Shape Matching"
 collection: publications
 permalink: /publication/2024-3dv-revisiting-map
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2023-10-16
+date: 2024-01-01
 venue: 'International Conference on 3D Vision (3DV)'
 paperurl: 'https://arxiv.org/pdf/2310.11420.pdf'
 authors: '<b>Dongliang Cao</b>, Paul Roetzer, Florian Bernard'
