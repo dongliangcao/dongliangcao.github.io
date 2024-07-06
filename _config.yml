@@ -304,8 +304,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Dongliang]
-  first_name: [Cao]
+  last_name: [Cao]
+  first_name: [Dongliang]
 
   style: apa
   locale: en
