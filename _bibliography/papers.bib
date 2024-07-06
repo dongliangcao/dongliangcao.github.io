@@ -1,114 +1,111 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@InProceedings{elamrani2024fuss,
+    bibtex_show={true},
+    abbr={MICCAI 2024},
+    selected={true},
+    preview={nafie2024miccai.png},
+    code={https://github.com/NafieAmrani/FUSS},
+    author={El Amrani, Nafie and Cao, Dongliang and Bernard, Florian},
+    title     = {A Universal and Flexible Framework for Unsupervised Statistical Shape Model Learning},
+    booktitle = {Medical Image Computing and Computer Assisted Intervention (MICCAI)},
+    year      = {2024},
+    abstract={We introduce a novel unsupervised deep learning framework for constructing statistical shape models (SSMs). Although unsupervised learning-based 3D shape matching methods have made a major leap forward in recent years, the correspondence quality of existing methods does not meet the demanding requirements necessary for the construction of SSMs of complex anatomical structures. We address this shortcoming by proposing a novel \emph{deformation coherency loss} to effectively enforce smooth and high-quality correspondences during neural network training. We demonstrate that our framework outperforms existing methods in creating high-quality SSMs by conducting extensive experiments on five challenging datasets with varying anatomical complexities. Our proposed method sets the new state of the art in unsupervised SSM learning, offering a universal solution that is both flexible and reliable. Our source code is publicly available at https://github.com/NafieAmrani/FUSS.}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+
+@InProceedings{cao2024spectral,
+    bibtex_show={true},
+    abbr={CVPR 2024},
+    selected={true},
+    preview={dongliang2024cvpr.png},
+    arxiv={2402.18920},
+    code={https://github.com/dongliangcao/Spectral-Meets-Spatial},
+    author={Cao, Dongliang and Eisenberger, Marvin and El Amrani, Nafie and Cremers, Daniel and Bernard, Florian},
+    title     = {Spectral Meets Spatial: Harmonising 3D Shape Matching and Interpolation},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year      = {2024},
+    abstract={Although 3D shape matching and interpolation are highly interrelated, they are often studied separately and applied sequentially to relate different 3D shapes, thus resulting in sub-optimal performance. In this work we present a unified framework to predict both point-wise correspondences and shape interpolation between 3D shapes. To this end, we combine the deep functional map framework with classical surface deformation models to map shapes in both spectral and spatial domains. On the one hand, by incorporating spatial maps, our method obtains more accurate and smooth point-wise correspondences compared to previous functional map methods for shape matching. On the other hand, by introducing spectral maps, our method gets rid of commonly used but computationally expensive geodesic distance constraints that are only valid for near-isometric shape deformations. Furthermore, we propose a novel test-time adaptation scheme to capture both pose-dominant and shape-dominant deformations. Using different challenging datasets, we demonstrate that our method outperforms previous state-of-the-art methods for both shape matching and interpolation, even compared to supervised approaches.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@InProceedings{wang2024unsupervised,
+    bibtex_show={true},
+    abbr={CVPR 2024},
+    selected={true},
+    preview={weikang2024cvpr.png},
+    author={Wang, Weikang and Cao, Dongliang and Bernard, Florian},
+    title     = {Unsupervised 3D Structure Inference from Category-Specific Image Collections},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year      = {2024},
+    abstract={Understanding 3D object structure from image collections of general object categories remains a long-standing challenge in computer vision. Due to the high relevance of image keypoints (e.g. for graph matching, controlling generative models, scene understanding, etc.), in this work we specifically focus on inferring 3D structure in terms of sparse keypoints. Existing 3D keypoint inference approaches rely on strong priors, such as spatio-temporal consistency, multi-view images of the same object, 3D shape priors (e.g. templates, skeleton), or supervisory signals e.g. in the form of 2D keypoint annotations. In contrast, we propose the first unsupervised 3D keypoint inference approach that can be trained for general object categories solely from an inhomogeneous image collection (containing different instances of objects from the same category). Our experiments show that our method not only improves upon unsupervised 2D keypoint inference, but more importantly, it also produces reasonable 3D structure for various object categories, both qualitatively and quantitatively.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true}
+@InProceedings{cao2024revisiting,
+    bibtex_show={true},
+    abbr={3DV 2024},
+    selected={true},
+    preview={dongliang20243dv.png},
+    arxiv={2310.11420},
+    author={Cao, Dongliang and Roetzer, Paul and Bernard, Florian},
+    title     = {Revisiting Map Relations for Unsupervised Non-Rigid Shape Matching},
+    booktitle = {2024 International Conference on 3D Vision (3DV)},
+    year      = {2024},
+    abstract={We propose a novel unsupervised learning approach for non-rigid 3D shape matching. Our approach improves upon recent state-of-the art deep functional map methods and can be applied to a broad range of different challenging scenarios. Previous deep functional map methods mainly focus on feature extraction and aim exclusively at obtaining more expressive features for functional map computation. However, the importance of the functional map computation itself is often neglected and the relationship between the functional map and point-wise map is underexplored. In this paper, we systematically investigate the coupling relationship between the functional map from the functional map solver and the point-wise map based on feature similarity. To this end, we propose a self-adaptive functional map solver to adjust the functional map regularisation for different shape matching scenarios, together with a vertex-wise contrastive loss to obtain more discriminative features. Using different challenging datasets (including non-isometry, topological noise and partiality), we demonstrate that our method substantially outperforms previous state-of-the-art methods.}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{jiang2023defcor,
+    bibtex_show={true},
+    abbr={MIA},
+    selected={true},
+    preview={dongliang2023mia.png},
+    arxiv={2308.03865},
+    code={https://github.com/karolinezhy/defcornet},
+    author={Jiang, Zhongliang and Zhou, Yue and Cao, Dongliang and Navab, Nassir},
+    title     = {DefCor-Net: Physics-aware ultrasound deformation correction},
+    journal   = {Medical Image Analysis},
+    year      = {2023},
+    abstract={The recovery of morphologically accurate anatomical images from deformed ones is challenging in ultrasound (US) image acquisition, but crucial to accurate and consistent diagnosis, particularly in the emerging field of computer-assisted diagnosis. This article presents a novel anatomy-aware deformation correction approach based on a coarse-to-fine, multi-scale deep neural network (DefCor-Net). To achieve pixel-wise performance, DefCor-Net incorporates biomedical knowledge by estimating pixel-wise stiffness online using a U-shaped feature extractor. The deformation field is then computed using polynomial regression by integrating the measured force applied by the US probe. Based on real-time estimation of pixel-by-pixel tissue properties, the learning-based approach enables the potential for anatomy-aware deformation correction. To demonstrate the effectiveness of the proposed DefCor-Net, images recorded at multiple locations on forearms and upper arms of six volunteers are used to train and validate DefCor-Net. The results demonstrate that DefCor-Net can significantly improve the accuracy of deformation correction to recover the original geometry (Dice Coefficient: from 14.3±20.9 to 82.6±12.1 when the force is 6N).}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{cao2023unsupervised,
+    bibtex_show={true},
+    abbr={SIGGRAPH 2023},
+    selected={true},
+    preview={dongliang2023siggraph.jpg},
+    arxiv={2304.14419},
+    code={https://github.com/dongliangcao/unsupervised-learning-of-robust-spectral-shape-matching},
+    author={Cao, Dongliang and Roetzer, Paul and Bernard, Florian},
+    title     = {Unsupervised learning of robust spectral shape matching},
+    journal = {ACM Transactions on Graphics (ToG)},
+    year      = {2023},
+    abstract={We propose a novel learning-based approach for robust 3D shape matching. Our method builds upon deep functional maps and can be trained in a fully unsupervised manner. Previous deep functional map methods mainly focus on predicting optimised functional maps alone, and then rely on off-the-shelf post-processing to obtain accurate point-wise maps during inference. However, this two-stage procedure for obtaining point-wise maps often yields sub-optimal performance. In contrast, building upon recent insights about the relation between functional maps and point-wise maps, we propose a novel unsupervised loss to couple the functional maps and point-wise maps, and thereby directly obtain point-wise maps without any post-processing. Our approach obtains accurate correspondences not only for near-isometric shapes, but also for more challenging non-isometric shapes and partial shapes, as well as shapes with different discretisation or topological noise. Using a total of nine diverse datasets, we extensively evaluate the performance and demonstrate that our method substantially outperforms previous stateof-the-art methods, even compared to recent supervised methods.}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@InProceedings{cao2023self,
+    bibtex_show={true},
+    abbr={CVPR 2023},
+    selected={true},
+    preview={dongliang2023cvpr.jpg},
+    arxiv={2303.10971},
+    code={https://github.com/dongliangcao/Self-Supervised-Multimodal-Shape-Matching},
+    author={Cao, Dongliang and Bernard, Florian},
+    title     = {Self-Supervised Learning for Multimodal Non-Rigid 3D Shape Matching},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year      = {2023},
+    abstract={The matching of 3D shapes has been extensively studied for shapes represented as surface meshes, as well as for shapes represented as point clouds. While point clouds are a common representation of raw real-world 3D data (e.g. from laser scanners), meshes encode rich and expressive topological information, but their creation typically requires some form of (often manual) curation. In turn, methods that purely rely on point clouds are unable to meet the matching quality of mesh-based methods that utilise the additional topological structure. In this work we close this gap by introducing a self-supervised multimodal learning strategy that combines mesh-based functional map regularisation with a contrastive loss that couples mesh and point cloud data. Our shape matching approach allows to obtain intramodal correspondences for triangle meshes, complete point clouds, and partially observed point clouds, as well as correspondences across these data modalities. We demonstrate that our method achieves state-of-the-art results on several challenging benchmark datasets even in comparison to recent supervised methods, and that our method reaches previously unseen cross-dataset generalisation ability.}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@InProceedings{cao2022unsupervised,
+    bibtex_show={true},
+    abbr={ECCV 2022},
+    selected={true},
+    preview={dongliang2022eccv.png},
+    arxiv={2207.09610},
+    code={https://github.com/dongliangcao/Unsupervised-Deep-Multi-Shape-Matching},
+    author={Cao, Dongliang and Bernard, Florian},
+    title     = {Unsupervised Deep Multi-Shape Matching},
+    booktitle = {European Conference on Computer Vision (ECCV)},
+    year      = {2022},
+    abstract={3D shape matching is a long-standing problem in computer vision and computer graphics. While deep neural networks were shown to lead to state-of-the-art results in shape matching, existing learning-based approaches are limited in the context of multi-shape matching: (i) either they focus on matching pairs of shapes only and thus suffer from cycle-inconsistent multi-matchings, or (ii) they require an explicit template shape to address the matching of a collection of shapes. In this paper, we present a novel approach for deep multi-shape matching that ensures cycle-consistent multi-matchings while not depending on an explicit template shape. To this end, we utilise a shape-to-universe multi-matching representation that we combine with powerful functional map regularisation, so that our multi-shape matching neural network can be trained in a fully unsupervised manner. While the functional map regularisation is only considered during training time, functional maps are not computed for predicting correspondences, thereby allowing for fast inference. We demonstrate that our method achieves state-of-the-art results on several challenging benchmark datasets, and, most remarkably, that our unsupervised method even outperforms recent supervised methods.}
 }
