@@ -49,12 +49,16 @@
   - firstname: ["Marvin"]
     url: https://cvg.cit.tum.de/members/eisenber
 
+"laehner":
+  - firstname: ['Zorah']
+    url: https://zorah.github.io/
+
 "wang":
   - firstname: ["Weikang"]
     url: https://wei-kang-wang.github.io/
 
-"nassir":
-  - firstname: ["Navab"]
+"navab":
+  - firstname: ["Nassir"]
     url: https://www.cs.cit.tum.de/camp/members/cv-nassir-navab/nassir-navab/
 
 "jiang":
