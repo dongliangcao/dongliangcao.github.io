@@ -32,3 +32,31 @@
 "planck":
   - firstname: ["Max"]
     url: https://en.wikipedia.org/wiki/Max_Planck
+
+"bernard":
+  - firstname: ["Florian"]
+    url: https://scholar.google.com/citations?user=9GrQ2KYAAAAJ&hl=en
+
+"roetzer":
+  - firstname: ["Paul"]
+    url: https://paulroetzer.github.io/
+
+"cremers":
+  - firstname: ["Daniel"]
+    url: https://cvg.cit.tum.de/members/cremers
+
+"eisenberger":
+  - firstname: ["Marvin"]
+    url: https://cvg.cit.tum.de/members/eisenber
+
+"wang":
+  - firstname: ["Weikang"]
+    url: https://wei-kang-wang.github.io/
+
+"nassir":
+  - firstname: ["Navab"]
+    url: https://www.cs.cit.tum.de/camp/members/cv-nassir-navab/nassir-navab/
+
+"jiang":
+  - firstname: ["Zhongliang"]
+    url: https://www.cs.cit.tum.de/camp/members/zhongliang-jiang/
