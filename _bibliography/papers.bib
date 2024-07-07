@@ -8,7 +8,7 @@
     code={https://github.com/NafieAmrani/FUSS},
     author={El Amrani, Nafie and Cao, Dongliang and Bernard, Florian},
     title     = {A Universal and Flexible Framework for Unsupervised Statistical Shape Model Learning},
-    booktitle = {Medical Image Computing and Computer Assisted Intervention (MICCAI)},
+    booktitle = {MICCAI},
     year      = {2024},
     abstract={We introduce a novel unsupervised deep learning framework for constructing statistical shape models (SSMs). Although unsupervised learning-based 3D shape matching methods have made a major leap forward in recent years, the correspondence quality of existing methods does not meet the demanding requirements necessary for the construction of SSMs of complex anatomical structures. We address this shortcoming by proposing a novel \emph{deformation coherency loss} to effectively enforce smooth and high-quality correspondences during neural network training. We demonstrate that our framework outperforms existing methods in creating high-quality SSMs by conducting extensive experiments on five challenging datasets with varying anatomical complexities. Our proposed method sets the new state of the art in unsupervised SSM learning, offering a universal solution that is both flexible and reliable. Our source code is publicly available at https://github.com/NafieAmrani/FUSS.}
 }
@@ -24,7 +24,7 @@
     code={https://github.com/dongliangcao/Spectral-Meets-Spatial},
     author={Cao, Dongliang and Eisenberger, Marvin and El Amrani, Nafie and Cremers, Daniel and Bernard, Florian},
     title     = {Spectral Meets Spatial: Harmonising 3D Shape Matching and Interpolation},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    booktitle = {CVPR},
     year      = {2024},
     abstract={Although 3D shape matching and interpolation are highly interrelated, they are often studied separately and applied sequentially to relate different 3D shapes, thus resulting in sub-optimal performance. In this work we present a unified framework to predict both point-wise correspondences and shape interpolation between 3D shapes. To this end, we combine the deep functional map framework with classical surface deformation models to map shapes in both spectral and spatial domains. On the one hand, by incorporating spatial maps, our method obtains more accurate and smooth point-wise correspondences compared to previous functional map methods for shape matching. On the other hand, by introducing spectral maps, our method gets rid of commonly used but computationally expensive geodesic distance constraints that are only valid for near-isometric shape deformations. Furthermore, we propose a novel test-time adaptation scheme to capture both pose-dominant and shape-dominant deformations. Using different challenging datasets, we demonstrate that our method outperforms previous state-of-the-art methods for both shape matching and interpolation, even compared to supervised approaches.}
 }
@@ -37,7 +37,7 @@
     website={https://wei-kang-wang.github.io/unsuper3Dstructure/},
     author={Wang, Weikang and Cao, Dongliang and Bernard, Florian},
     title     = {Unsupervised 3D Structure Inference from Category-Specific Image Collections},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    booktitle = {CVPR},
     year      = {2024},
     abstract={Understanding 3D object structure from image collections of general object categories remains a long-standing challenge in computer vision. Due to the high relevance of image keypoints (e.g. for graph matching, controlling generative models, scene understanding, etc.), in this work we specifically focus on inferring 3D structure in terms of sparse keypoints. Existing 3D keypoint inference approaches rely on strong priors, such as spatio-temporal consistency, multi-view images of the same object, 3D shape priors (e.g. templates, skeleton), or supervisory signals e.g. in the form of 2D keypoint annotations. In contrast, we propose the first unsupervised 3D keypoint inference approach that can be trained for general object categories solely from an inhomogeneous image collection (containing different instances of objects from the same category). Our experiments show that our method not only improves upon unsupervised 2D keypoint inference, but more importantly, it also produces reasonable 3D structure for various object categories, both qualitatively and quantitatively.}
 }
@@ -51,7 +51,7 @@
     pdf={dongliang20243dv.pdf},
     author={Cao, Dongliang and Roetzer, Paul and Bernard, Florian},
     title     = {Revisiting Map Relations for Unsupervised Non-Rigid Shape Matching},
-    booktitle = {2024 International Conference on 3D Vision (3DV)},
+    booktitle = {3DV},
     year      = {2024},
     abstract={We propose a novel unsupervised learning approach for non-rigid 3D shape matching. Our approach improves upon recent state-of-the art deep functional map methods and can be applied to a broad range of different challenging scenarios. Previous deep functional map methods mainly focus on feature extraction and aim exclusively at obtaining more expressive features for functional map computation. However, the importance of the functional map computation itself is often neglected and the relationship between the functional map and point-wise map is underexplored. In this paper, we systematically investigate the coupling relationship between the functional map from the functional map solver and the point-wise map based on feature similarity. To this end, we propose a self-adaptive functional map solver to adjust the functional map regularisation for different shape matching scenarios, together with a vertex-wise contrastive loss to obtain more discriminative features. Using different challenging datasets (including non-isometry, topological noise and partiality), we demonstrate that our method substantially outperforms previous state-of-the-art methods.}
 }
@@ -96,7 +96,7 @@
     code={https://github.com/dongliangcao/Self-Supervised-Multimodal-Shape-Matching},
     author={Cao, Dongliang and Bernard, Florian},
     title     = {Self-Supervised Learning for Multimodal Non-Rigid 3D Shape Matching},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    booktitle = {CVPR},
     year      = {2023},
     additional_info={. **(Highlight, 2.5% submissions)**},
     abstract={The matching of 3D shapes has been extensively studied for shapes represented as surface meshes, as well as for shapes represented as point clouds. While point clouds are a common representation of raw real-world 3D data (e.g. from laser scanners), meshes encode rich and expressive topological information, but their creation typically requires some form of (often manual) curation. In turn, methods that purely rely on point clouds are unable to meet the matching quality of mesh-based methods that utilise the additional topological structure. In this work we close this gap by introducing a self-supervised multimodal learning strategy that combines mesh-based functional map regularisation with a contrastive loss that couples mesh and point cloud data. Our shape matching approach allows to obtain intramodal correspondences for triangle meshes, complete point clouds, and partially observed point clouds, as well as correspondences across these data modalities. We demonstrate that our method achieves state-of-the-art results on several challenging benchmark datasets even in comparison to recent supervised methods, and that our method reaches previously unseen cross-dataset generalisation ability.}
@@ -112,7 +112,7 @@
     code={https://github.com/dongliangcao/Unsupervised-Deep-Multi-Shape-Matching},
     author={Cao, Dongliang and Bernard, Florian},
     title     = {Unsupervised Deep Multi-Shape Matching},
-    booktitle = {European Conference on Computer Vision (ECCV)},
+    booktitle = {ECCV},
     year      = {2022},
     abstract={3D shape matching is a long-standing problem in computer vision and computer graphics. While deep neural networks were shown to lead to state-of-the-art results in shape matching, existing learning-based approaches are limited in the context of multi-shape matching: (i) either they focus on matching pairs of shapes only and thus suffer from cycle-inconsistent multi-matchings, or (ii) they require an explicit template shape to address the matching of a collection of shapes. In this paper, we present a novel approach for deep multi-shape matching that ensures cycle-consistent multi-matchings while not depending on an explicit template shape. To this end, we utilise a shape-to-universe multi-matching representation that we combine with powerful functional map regularisation, so that our multi-shape matching neural network can be trained in a fully unsupervised manner. While the functional map regularisation is only considered during training time, functional maps are not computed for predicting correspondences, thereby allowing for fast inference. We demonstrate that our method achieves state-of-the-art results on several challenging benchmark datasets, and, most remarkably, that our unsupervised method even outperforms recent supervised methods.}
 }
