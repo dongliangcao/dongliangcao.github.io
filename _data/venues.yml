@@ -4,3 +4,24 @@
 
 "PhysRev":
   url: https://journals.aps.org/
+
+"CVPR 2024":
+  url: https://cvpr.thecvf.com/
+
+"CVPR 2023":
+  url: https://cvpr.thecvf.com/
+
+"ECCV 2024":
+  url: https://eccv2024.ecva.net/
+
+"ECCV 2022":
+  url: https://eccv2022.ecva.net/
+
+"SIGGRAPH 2023":
+  url: https://s2023.siggraph.org/
+
+"3DV 2024":
+  url: https://3dvconf.github.io/2024/
+
+"MICCAI 2024":
+  url: https://conferences.miccai.org/2024/en/
