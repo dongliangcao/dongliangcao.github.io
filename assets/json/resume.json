@@ -49,14 +49,43 @@
       "endDate": "2019"
     }
   ],
-  "awards": "",
+  "awards": [
+    {
+      "title": "Graduate with Distinction",
+      "date": "2022",
+      "awarder": "Technical University of Munich",
+      "url": "https://www.tum.de/",
+      "summary": "Top 20% graduates from Technical University of Munich"
+    },
+    {
+      "title": "DAAD scholarship",
+      "date": "2018",
+      "awarder": "Germany Academic Exchange Service",
+      "url": "https://www.dhik.org/kooperationen/cdhaw/",
+      "summary": "Scholarship for abroad student in Germany"
+    }
+  ],
   "certificates": "",
   "publications": [
+    {
+      "name": "Synchronous Diffusion for Unsupervised Smooth Non-Rigid 3D Shape Matching",
+      "publisher": "ECCV 2024",
+      "releaseDate": "2024-07",
+      "url": "https://dongliangcao.github.io/assets/pdf/dongliang2024eccv.pdf",
+      "summary": ""
+    },
+    {
+      "name": "DiscoMatch: Fast Discrete Optimisation for Geometrically Consistent 3D Shape Matching",
+      "publisher": "ECCV 2024",
+      "releaseDate": "2024-07",
+      "url": "https://dongliangcao.github.io/assets/pdf/paul2024eccv.pdf",
+      "summary": ""
+    },
     {
       "name": "A Universal and Flexible Framework for Unsupervised Statistical Shape Model Learning",
       "publisher": "MICCAI 2024",
       "releaseDate": "2024-05",
-      "url": "",
+      "url": "https://nafieamrani.github.io/assets/pdf/nafie2024miccai.pdf",
       "summary": ""
     },
     {
@@ -129,5 +158,13 @@
   ],
   "interests": "",
   "references": "",
-  "projects": ""
+  "projects": [
+    {
+      "name": "ABB, Global Research Center, Ladenburg, Germany",
+      "summary": "Software development for robotics automation",
+      "highlights": ["Robotics Manipulation and Simulation"],
+      "startDate": "2019-05",
+      "endDate": "2019-09"
+    }
+  ]
 }
