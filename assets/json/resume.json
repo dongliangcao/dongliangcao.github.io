@@ -22,7 +22,7 @@
       "position": "PhD Candidate",
       "location": "Bonn, Germany",
       "url": "https://www.uni-bonn.de",
-      "startDate": "2022",
+      "startDate": "2022-04",
       "endDate": "",
       "summary": "",
       "highlights": ""
@@ -35,18 +35,18 @@
       "location": "Munich, Germany",
       "url": "https://www.tum.de/",
       "area": "Computer Science",
-      "studyType": "M.Sc.",
-      "startDate": "2019",
-      "endDate": "2022"
+      "studyType": "Master",
+      "startDate": "2019-10",
+      "endDate": "2022-04"
     },
     {
       "institution": "Tongji University",
       "location": "Shanghai, China",
       "url": "https://en.tongji.edu.cn/p/#/",
       "area": "Mechatronics & Automation",
-      "studyType": "B.Sc.",
-      "startDate": "2015",
-      "endDate": "2019"
+      "studyType": "Bachelor",
+      "startDate": "2015-10",
+      "endDate": "2019-09"
     }
   ],
   "awards": [
@@ -54,14 +54,12 @@
       "title": "Graduate with Distinction",
       "date": "2022",
       "awarder": "Technical University of Munich",
-      "url": "https://www.tum.de/",
       "summary": "Top 20% graduates from Technical University of Munich"
     },
     {
       "title": "DAAD scholarship",
       "date": "2018",
       "awarder": "Germany Academic Exchange Service",
-      "url": "https://www.dhik.org/kooperationen/cdhaw/",
       "summary": "Scholarship for abroad student in Germany"
     }
   ],
@@ -138,22 +136,26 @@
       "summary": ""
     }
   ],
-  "skills": "",
+  "skills": [{
+    "name": "Deep learning",
+    "level": "Master",
+    "keywords": [
+      "Python",
+      "PyTorch"
+    ]
+  }],
   "languages": [
     {
       "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "fluency": "Fluent"
     },
     {
       "language": "German",
-      "fluency": "Fluent",
-      "icon": ""
+      "fluency": "Fluent"
     },
     {
       "language": "Chinese",
-      "fluency": "Native speaker",
-      "icon": ""
+      "fluency": "Native speaker"
     }
   ],
   "interests": "",
