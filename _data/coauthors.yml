@@ -89,10 +89,10 @@
   - firstname: ["Ehm"]
     url: https://cvg.cit.tum.de/members/ehm
 
-"marc":
-  - firstname: ["Habermann"]
+"habermann":
+  - firstname: ["Marc"]
     url: https://people.mpi-inf.mpg.de/~mhaberma/
 
-"guoxing":
-  - firstname: ["Sun"]
+"sun":
+  - firstname: ["Guoxing"]
     url: https://people.mpi-inf.mpg.de/~gsun/
