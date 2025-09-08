@@ -88,3 +88,11 @@
 "viktoria":
   - firstname: ["Ehm"]
     url: https://cvg.cit.tum.de/members/ehm
+
+"marc"
+  - firstname: ["Habermann"]
+    url: https://people.mpi-inf.mpg.de/~mhaberma/
+
+"guoxing"
+  - firstname: ["Sun"]
+    url: https://people.mpi-inf.mpg.de/~gsun/
